@@ -1,0 +1,56 @@
+.main {
+    /* flex: 2; */
+    display: inline-block;
+    width: 60vw;
+    margin-top: -2px;
+}
+
+.main h1 {
+    font-family: 'fugaz one';
+    font-size: 30px;
+}
+
+.notesTitle {
+    padding-left: 40px;
+}
+
+.notesUnderline1 {
+    background-color: #49297F;
+    /* background-color: #E10186; */
+    height: 10px;
+    width: 80%;
+    margin-top: -30px;
+    border-top-right-radius: 5px;
+}
+.notesUnderline2 {
+    /* background-color: #E10186; */
+    background-color: #07DB96;
+    height: 7px;
+    width: 80%;
+    margin-top: 4px;
+}
+.notesUnderline3 {
+    background-color: #E10186;
+    /* background-color: #49297F; */
+    height: 4px;
+    width: 80%;
+    margin-top: 4px;
+    border-bottom-right-radius: 5px;
+}
+
+.addNoteButton {
+    font-family: 'bellota';
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    margin-top: -5px;
+    padding: 5px;
+    border: 1px solid #272324;
+}
+
+.addNoteButton:hover {
+    background-color: #FDFB76;
+    cursor: pointer;
+}

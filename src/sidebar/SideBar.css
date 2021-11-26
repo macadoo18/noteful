@@ -1,0 +1,81 @@
+.sideBar {
+  flex: 1;
+  display: inline-block;
+  margin-top: 0;
+  width: 180px;
+  /* position: relative; */
+}
+
+.sideBar h1 {
+  color: #272324;
+  font-family: "fugaz one";
+  font-weight: 600;
+}
+
+.foldersUnderline1 {
+  background-color: #49297f;
+  height: 10px;
+  width: 150px;
+  margin-top: -28px;
+  border-top-right-radius: 5px;
+}
+.foldersUnderline2 {
+  /* background-color: #49297F; */
+  background-color: #07db96;
+  height: 7px;
+  width: 150px;
+  margin-top: 4px;
+}
+.foldersUnderline3 {
+  /* background-color: #49297F; */
+  background-color: #e10186;
+  height: 4px;
+  width: 150px;
+  margin-top: 4px;
+  border-bottom-right-radius: 5px;
+}
+
+.sideBar ul {
+  display: block;
+  position: relative;
+  text-align: left;
+}
+
+/* .sideBar li {
+    left: 0;
+} */
+
+.sideBar li a {
+  font-family: "zilla slab";
+  font-size: 25px;
+  border: 2px solid #49297f;
+  color: #272324;
+  border-radius: 5px;
+  position: relative;
+  margin-left: -40px;
+  margin-bottom: 8px;
+  padding: 4px 4px 6px 6px;
+  display: block;
+}
+
+.sideBar li a:hover {
+  background-color: #49297f;
+  color: white;
+}
+
+.addFolderButton {
+  font-family: "bellota";
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+  margin-top: -5px;
+  padding: 5px;
+  border: 1px solid #272324;
+}
+
+.addFolderButton:hover {
+  background-color: #fdfb76;
+  cursor: pointer;
+}
